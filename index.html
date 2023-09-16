@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Custom Chocolate Bundle</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Build Your Custom Chocolate Pack</h1>
+        <div class="chocolates">
+            <!-- Chocolate options -->
+            <div class="chocolate">
+                <img src="chocolate1.jpg" alt="Chocolate 1">
+                <h3>Chocolate 1</h3>
+                <p>Price: $2.00</p>
+                <input type="number" id="chocolate1-quantity" min="0" max="8">
+            </div>
+
+            <div class="chocolate">
+                <img src="chocolate2.jpg" alt="Chocolate 2">
+                <h3>Chocolate 2</h3>
+                <p>Price: $2.50</p>
+                <input type="number" id="chocolate2-quantity" min="0" max="8">
+            </div>
+            
+            <!-- Add more chocolates here -->
+        </div>
+        <div class="total">
+            <h3>Total Price: <span id="total-price">$0.00</span></h3>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
